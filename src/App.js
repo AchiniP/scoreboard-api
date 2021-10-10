@@ -10,7 +10,7 @@ App.use(compression());
 App.use(cors());
 App.use(Express.urlencoded({ extended: true }));
 App.use(Express.json());
-App.use('/', Router);
+App.use('/v1/', Router);
 
 const options = {
     swaggerDefinition: {

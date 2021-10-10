@@ -96,6 +96,12 @@ export const FETCH_SCORE_OF_USERS_BY_USER_ID_QUERY = (userId) => [
                 ]
             }
         }
+    },{
+        '$sort': {
+            'category': 1
+        }
+    }, {
+        '$unset': '_id'
     }
 ];
 

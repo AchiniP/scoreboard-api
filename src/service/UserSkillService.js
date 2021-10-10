@@ -30,7 +30,7 @@ const fetchUserScoreListByUser = async (userId) => {
     }
     const categorizedData = await UserSkillRepository.fetchScoreByUser(userId);
     const overallData = await UserSkillRepository.fetchOverallScoreByUser(userId);
-    return [...categorizedData, overallData];
+    return [...categorizedData, ...overallData];
 }
 
 export default {

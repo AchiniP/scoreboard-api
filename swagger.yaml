@@ -4,7 +4,7 @@ tags:
 
 paths:
 # [GET] score by category
-  /score/category/{category}:
+  /v1/score/category/{category}:
     get:
       tags:
         - scoreboard
@@ -33,7 +33,7 @@ paths:
           description: 'Server Error'
 
 # [GET] score by user
-  /score/user/{userId}:
+  /v1/score/user/{userId}:
     get:
       tags:
       - scoreboard
