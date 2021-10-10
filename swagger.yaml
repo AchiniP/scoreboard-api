@@ -1,0 +1,87 @@
+tags:
+- name: scoreboard
+  description: ScoreBoard API
+
+paths:
+# [GET] score by category
+  /score/category/{category}:
+    get:
+      tags:
+        - scoreboard
+      summary: Get User Score by Category
+      parameters:
+        - name: category
+          in: path
+          description: Category
+          required: true
+          enum: ['OVERALL', 'ATTACK', 'DEFENSE', 'MAGIC', 'COOKING', 'CRAFTING']
+        - name: limit
+          in: query
+          description: Limit
+      responses:
+        200:
+          description: 'OK'
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/userScore'
+        400:
+          description: 'Bad Request'
+        404:
+          description: 'Not Found'
+        500:
+          description: 'Server Error'
+
+# [GET] score by user
+  /score/user/{userId}:
+    get:
+      tags:
+      - scoreboard
+      summary: Get User Score by User Id
+      parameters:
+      - name: userId
+        in: path
+        description: User Id
+        required: true
+      responses:
+        200:
+          description: 'OK'
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/userScore'
+        400:
+          description: 'Bad Request'
+        404:
+          description: 'Not Found'
+        500:
+          description: 'Server Error'
+
+# definitions
+definitions:
+  userScore:
+    type: object
+    required:
+        - id
+        - level
+        - score
+    properties:
+      id:
+        description: user Id
+      category:
+        type: string
+        enum: ['ATTACK', 'DEFENSE', 'MAGIC', 'COOKING', 'CRAFTING']
+        description: skill categories
+      level:
+        type: integer
+        description: game level
+      score:
+        type: integer
+        description: score
+      rank:
+        type: integer
+        description: rank
+
+schemes:
+ - https
+ - http
