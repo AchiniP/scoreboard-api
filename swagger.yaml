@@ -1,0 +1,117 @@
+tags:
+- name: scoreboard
+  description: ScoreBoard API
+
+paths:
+# [GET] score by category
+  /v1/score/category/{category}:
+    get:
+      tags:
+        - scoreboard
+      summary: Get User Score by Category
+      parameters:
+        - name: category
+          in: path
+          description: Category
+          required: true
+          enum: ['OVERALL', 'ATTACK', 'DEFENSE', 'MAGIC', 'COOKING', 'CRAFTING']
+        - name: limit
+          in: query
+          description: Limit
+      responses:
+        200:
+          description: 'OK'
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/userScore'
+        400:
+          description: 'Bad Request'
+        404:
+          description: 'Not Found'
+        500:
+          description: 'Server Error'
+
+# [GET] score by user
+  /v1/score/user/{userId}:
+    get:
+      tags:
+      - scoreboard
+      summary: Get User Score by User Id
+      parameters:
+      - name: userId
+        in: path
+        description: User Id
+        required: true
+      responses:
+        200:
+          description: 'OK'
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/userScore'
+        400:
+          description: 'Bad Request'
+        404:
+          description: 'Not Found'
+        500:
+          description: 'Server Error'
+# [GET] health check
+  /v1/healthcheck:
+    get:
+      tags:
+        - utility
+      summary: Check Application Health
+      responses:
+        200:
+          description: 'OK'
+        404:
+          description: 'Not Found'
+        502:
+          description: 'Gateway Timeout'
+# [GET] utility to create docs in mongo
+  /v1/admin/userSkills:
+    post:
+      tags:
+        - utility
+      summary: create n number of user skills data in DB
+      parameters:
+        - name: count
+          type: integer
+          in: query
+          description: Number of documents to add
+      responses:
+        200:
+          description: 'OK'
+        404:
+          description: 'Not Found'
+        502:
+          description: 'Gateway Timeout'
+# definitions
+definitions:
+  userScore:
+    type: object
+    required:
+        - id
+        - level
+        - score
+    properties:
+      id:
+        description: user Id
+      category:
+        type: string
+        enum: ['ATTACK', 'DEFENSE', 'MAGIC', 'COOKING', 'CRAFTING']
+        description: skill categories
+      level:
+        type: integer
+        description: game level
+      score:
+        type: integer
+        description: score
+      rank:
+        type: integer
+        description: rank
+
+schemes:
+ - https
+ - http

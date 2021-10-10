@@ -1,0 +1,23 @@
+[
+  {
+    "userId":"Spectacular-horseman-27",
+    "category":"COOKING",
+    "score":518,
+    "level":90,
+    "rank":14
+  },
+  {
+      "userId":"Spectacular-horseman-27",
+      "category":"DEFENSE",
+      "score":290,
+      "level":68,
+      "rank":17
+  },
+  {
+       "userId":"Spectacular-horseman-27",
+       "category":"MAGIC",
+       "score":972,
+       "level":78,
+       "rank":5
+  }
+]
