@@ -1,6 +1,6 @@
 import { StatusCodes } from 'http-status-codes';
 import ErrorCodes from './ErrorCodes';
-import ErrorMiddleware from './ErrorMiddleware';
+import ErrorBase from './ErrorBase';
 
 const globalErrorHandler = (err, req, res, next) => {
   if (res.headersSent) {
@@ -15,7 +15,7 @@ const globalErrorHandler = (err, req, res, next) => {
     });
   }
 
-  if (err instanceof ErrorMiddleware) {
+  if (err instanceof ErrorBase) {
     const error = err;
 
     return res.status(error.getHttpStatusCode()).send({

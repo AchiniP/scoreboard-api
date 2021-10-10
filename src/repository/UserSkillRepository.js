@@ -7,18 +7,24 @@ import {
     FETCH_SCORE_OF_USERS_BY_USER_ID_QUERY,
     FETCH_OVERALL_RANK_OF_USER_QUERY
 } from './Query';
-import ErrorMiddleware from "../middleware/error/ErrorMiddleware";
+import ErrorBase from "../middleware/error/ErrorBase";
 import ErrorCodes from "../middleware/error/ErrorCodes";
-import ErrorMessages from "../middleware/ErrorMessages";
+import ErrorMessages from "../middleware/error/ErrorMessages";
 
 const LOG = new Logger('UserSkillRepository.js');
+
+const findUser = async (userId) => {
+    LOG.debug(`Going to Fetch user by user Id: ${userId}`);
+    const result = await UserSkill.findOne({ userId : { $regex: new RegExp(`^${userId}$`, 'i')}});
+    return result;
+}
 
 const fetchOverallScoreOfUsers = async (limit) => {
     LOG.debug(`Going to Fetch top: ${limit} Users based on Score`);
     const result = await UserSkill.aggregate(FETCH_OVERALL_SCORE_OF_USERS_QUERY(parseInt(limit))).catch(
         error => {
             LOG.error(`Error Occurred While fetching Overall Score Of Users. Error: ${error}`);
-            throw new ErrorMiddleware(ErrorCodes.DB_ERROR, ErrorMessages.DB_ERROR, StatusCodes.INTERNAL_SERVER_ERROR);
+            throw new ErrorBase(ErrorCodes.DB_ERROR, ErrorMessages.DB_ERROR, StatusCodes.INTERNAL_SERVER_ERROR);
         }
     );
     return result;
@@ -30,7 +36,7 @@ const fetchScoreByCategory = async (category, limit) => {
         parseInt(limit))).catch(
         error => {
             LOG.error(`Error Occurred While fetching Overall Score Of Users by category. Error: ${error}`);
-            throw new ErrorMiddleware(ErrorCodes.DB_ERROR, ErrorMessages.DB_ERROR, StatusCodes.INTERNAL_SERVER_ERROR);
+            throw new ErrorBase(ErrorCodes.DB_ERROR, ErrorMessages.DB_ERROR, StatusCodes.INTERNAL_SERVER_ERROR);
         }
     );
     return result;
@@ -41,7 +47,7 @@ const fetchScoreByUser = async (userId) => {
     const result = await UserSkill.aggregate(FETCH_SCORE_OF_USERS_BY_USER_ID_QUERY(userId)).catch(
         error => {
             LOG.error(`Error Occurred While fetching Overall Score Of Users by category. Error: ${error}`);
-            throw new ErrorMiddleware(ErrorCodes.DB_ERROR, ErrorMessages.DB_ERROR, StatusCodes.INTERNAL_SERVER_ERROR);
+            throw new ErrorBase(ErrorCodes.DB_ERROR, ErrorMessages.DB_ERROR, StatusCodes.INTERNAL_SERVER_ERROR);
         }
     );
     return result;
@@ -52,13 +58,14 @@ const fetchOverallScoreByUser = async (userId) => {
     const result = await UserSkill.aggregate(FETCH_OVERALL_RANK_OF_USER_QUERY(userId)).catch(
         error => {
             LOG.error(`Error Occurred While fetching Overall Score Of Users by category. Error: ${error}`);
-            throw new ErrorMiddleware(ErrorCodes.DB_ERROR, ErrorMessages.DB_ERROR, StatusCodes.INTERNAL_SERVER_ERROR);
+            throw new ErrorBase(ErrorCodes.DB_ERROR, ErrorMessages.DB_ERROR, StatusCodes.INTERNAL_SERVER_ERROR);
         }
     );
     return result;
 }
 
 export default {
+    findUser,
     fetchOverallScoreOfUsers,
     fetchScoreByCategory,
     fetchScoreByUser,

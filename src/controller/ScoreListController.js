@@ -14,8 +14,7 @@ const LOG = new Logger('ScoreListController.js');
  * @type {Joi.ObjectSchema<any>}
  */
 const FETCH_SCORE_BY_CATEGORY_SCHEMA = Joi.object().keys({
-    category: Joi.string().valid('OVERALL', 'ATTACK', 'DEFENSE', 'MAGIC', 'COOKING', 'CRAFTING').required(),
-    limit: Joi.number()
+    category: Joi.string().valid('OVERALL', 'ATTACK', 'DEFENSE', 'MAGIC', 'COOKING', 'CRAFTING').required()
 });
 
 /**

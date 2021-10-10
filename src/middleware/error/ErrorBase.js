@@ -1,4 +1,4 @@
-class ErrorMiddleware extends Error {
+class ErrorBase extends Error {
     constructor(message, errorCode, httpStatusCode) {
         super(message);
 
@@ -19,4 +19,4 @@ class ErrorMiddleware extends Error {
     }
 }
 
-export default ErrorMiddleware;
+export default ErrorBase;
