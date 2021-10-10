@@ -56,7 +56,37 @@ paths:
           description: 'Not Found'
         500:
           description: 'Server Error'
-
+# [GET] health check
+  /v1/healthcheck:
+    get:
+      tags:
+        - utility
+      summary: Check Application Health
+      responses:
+        200:
+          description: 'OK'
+        404:
+          description: 'Not Found'
+        502:
+          description: 'Gateway Timeout'
+# [GET] utility to create docs in mongo
+  /v1/admin/userSkills:
+    post:
+      tags:
+        - utility
+      summary: create n number of user skills data in DB
+      parameters:
+        - name: count
+          type: integer
+          in: query
+          description: Number of documents to add
+      responses:
+        200:
+          description: 'OK'
+        404:
+          description: 'Not Found'
+        502:
+          description: 'Gateway Timeout'
 # definitions
 definitions:
   userScore:

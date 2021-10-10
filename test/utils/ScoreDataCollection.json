@@ -1,102 +1,152 @@
-[{
-  "userId": "gentle-agent-73",
-  "category": "ATTACK",
-  "score": 194,
-  "level": 92
-},{
-  "userId": "gentle-agent-73",
-  "category": "DEFENSE",
-  "score": 446,
-  "level": 31
-},{
-  "userId": "gentle-agent-73",
-  "category": "MAGIC",
-  "score": 356,
-  "level": 68
-},{
-  "userId": "gentle-agent-73",
-  "category": "COOKING",
-  "score": 618,
-  "level": 16
-},{
-  "userId": "gentle-agent-73",
-  "category": "CRAFTING",
-  "score": 319,
-  "level": 39
-},{
-  "userId": "forceful-pugstyles-79",
-  "category": "ATTACK",
-  "score": 968,
-  "level": 33
-},{
-  "userId": "forceful-pugstyles-79",
-  "category": "DEFENSE",
-  "score": 758,
-  "level": 24
-},{
-  "userId": "forceful-pugstyles-79",
-  "category": "MAGIC",
-  "score": 361,
-  "level": 5
-},{
-  "userId": "forceful-pugstyles-79",
-  "category": "COOKING",
-  "score": 418,
-  "level": 70
-},{
-  "userId": "forceful-pugstyles-79",
-  "category": "CRAFTING",
-  "score": 346,
-  "level": 83
-},{
-  "userId": "Amazing-drummle-18",
-  "category": "ATTACK",
-  "score": 293,
-  "level": 30
-},{
-  "userId": "Amazing-drummle-18",
-  "category": "DEFENSE",
-  "score": 798,
-  "level": 45
-},{
-  "userId": "Amazing-drummle-18",
-  "category": "MAGIC",
-  "score": 136,
-  "level": 61
-},{
-  "userId": "Amazing-drummle-18",
-  "category": "COOKING",
-  "score": 100,
-  "level": 53
-},{
-  "userId": "Amazing-drummle-18",
-  "category": "CRAFTING",
-  "score": 888,
-  "level": 52
-},{
-  "userId": "modest-technician-83",
-  "category": "ATTACK",
-  "score": 1021,
-  "level": 25
-},{
-  "userId": "modest-technician-83",
-  "category": "COOKING",
-  "score": 1034,
-  "level": 89
-},{
-  "userId": "modest-technician-83",
-  "category": "CRAFTING",
-  "score": 134,
-  "level": 4
-},{
-  "userId": "modest-technician-83",
-  "category": "MAGIC",
-  "score": 657,
-  "level": 34
-},{
-  "userId": "modest-technician-83",
-  "category": "DEFENSE",
-  "score": 452,
-  "level": 35
-}
+[
+  {
+    "userId": "gentle-harry-61",
+    "skills": [
+      {
+        "category": "ATTACK",
+        "score": 199,
+        "level": 50
+      },
+      {
+        "category": "DEFENSE",
+        "score": 276,
+        "level": 14
+      },
+      {
+        "category": "MAGIC",
+        "score": 201,
+        "level": 60
+      },
+      {
+        "category": "COOKING",
+        "score": 282,
+        "level": 99
+      },
+      {
+        "category": "CRAFTING",
+        "score": 864,
+        "level": 98
+      }
+    ]
+  },
+  {
+    "userId": "charming-critic-90",
+    "skills": [
+      {
+        "category": "ATTACK",
+        "score": 102,
+        "level": 39
+      },
+      {
+        "category": "DEFENSE",
+        "score": 901,
+        "level": 12
+      },
+      {
+        "category": "MAGIC",
+        "score": 785,
+        "level": 96
+      },
+      {
+        "category": "COOKING",
+        "score": 660,
+        "level": 21
+      },
+      {
+        "category": "CRAFTING",
+        "score": 108,
+        "level": 31
+      }
+    ]
+  },
+  {
+    "userId": "Ultimate-donny-25",
+    "skills": [
+      {
+        "category": "ATTACK",
+        "score": 732,
+        "level": 24
+      },
+      {
+        "category": "DEFENSE",
+        "score": 690,
+        "level": 4
+      },
+      {
+        "category": "MAGIC",
+        "score": 787,
+        "level": 72
+      },
+      {
+        "category": "COOKING",
+        "score": 416,
+        "level": 88
+      },
+      {
+        "category": "CRAFTING",
+        "score": 273,
+        "level": 49
+      }
+    ]
+  },
+  {
+    "userId": "Favorable-trustee-54",
+    "skills": [
+      {
+        "category": "ATTACK",
+        "score": 647,
+        "level": 2
+      },
+      {
+        "category": "DEFENSE",
+        "score": 1048,
+        "level": 12
+      },
+      {
+        "category": "MAGIC",
+        "score": 801,
+        "level": 83
+      },
+      {
+        "category": "COOKING",
+        "score": 254,
+        "level": 69
+      },
+      {
+        "category": "CRAFTING",
+        "score": 148,
+        "level": 50
+      }
+    ]
+  },
+  {
+    "userId": "romantic-teacher-73",
+    "skills": [
+      {
+        "category": "ATTACK",
+        "score": 739,
+        "level": 86
+      },
+      {
+        "category": "DEFENSE",
+        "score": 901,
+        "level": 5
+      },
+      {
+        "category": "MAGIC",
+        "score": 395,
+        "level": 7
+      },
+      {
+        "category": "COOKING",
+        "score": 174,
+        "level": 41
+      },
+      {
+        "category": "CRAFTING",
+        "score": 246,
+        "level": 28
+      }
+    ]
+  }
 ]

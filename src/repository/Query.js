@@ -1,19 +1,29 @@
 export const FETCH_OVERALL_SCORE_OF_USERS_QUERY = (limit) =>  [
     {
-        '$group': {
-            '_id': '$userId',
-            'userId': {
-                '$first': '$userId'
+        '$addFields': {
+            'level': {
+                '$reduce': {
+                    'input': '$skills',
+                    'initialValue': 0,
+                    'in': {
+                        '$add': [
+                            '$$value', '$$this.level'
+                        ]
+                    }
+                }
             },
             'score': {
-                '$sum': '$score'
-            },
-            'level': {
-                '$sum': '$level'
+                '$reduce': {
+                    'input': '$skills',
+                    'initialValue': 0,
+                    'in': {
+                        '$add': [
+                            '$$value', '$$this.score'
+                        ]
+                    }
+                }
             }
         }
-    }, {
-        '$unset': '_id'
     }, {
         '$setWindowFields': {
             'sortBy': {
@@ -28,22 +38,35 @@ export const FETCH_OVERALL_SCORE_OF_USERS_QUERY = (limit) =>  [
     }, {
         '$limit': limit
     }, {
-        '$addFields': {
-            'category': 'OVERALL'
+        '$project': {
+            'userId': '$userId',
+            'category': 'OVERALL',
+            'level': '$level',
+            'score': '$score',
+            'rank': '$rank'
         }
+    }, {
+        '$unset': '_id'
     }
 ];
 
 
 export const FETCH_SCORE_OF_USERS_BY_CATEGORY_QUERY = (category, limit) =>  [
     {
-        '$match': {
-            'category': category
+        '$unwind': {
+            'path': '$skills'
         }
     }, {
-        '$unset': [
-            '_id', '__v'
-        ]
+        '$match': {
+            'skills.category': category
+        }
+    }, {
+        '$project': {
+            'userId': '$userId',
+            'category': '$skills.category',
+            'level': '$skills.level',
+            'score': '$skills.score'
+        }
     }, {
         '$setWindowFields': {
             'sortBy': {
@@ -57,70 +80,75 @@ export const FETCH_SCORE_OF_USERS_BY_CATEGORY_QUERY = (category, limit) =>  [
         }
     }, {
         '$limit': limit
+    }, {
+        '$unset': '_id'
     }
-];
+]
 
 export const FETCH_SCORE_OF_USERS_BY_USER_ID_QUERY = (userId) => [
     {
-        '$sort': {
-            'score': -1
+        '$unwind': {
+            'path': '$skills'
         }
     }, {
-        '$group': {
-            '_id': '$category',
-            'items': {
-                '$push': '$$ROOT'
+        '$setWindowFields': {
+            'partitionBy': '$skills.category',
+            'sortBy': {
+                'skills.score': -1
+            },
+            'output': {
+                'rank': {
+                    '$rank': {}
+                }
             }
         }
     }, {
-        '$unwind': {
-            'path': '$items',
-            'includeArrayIndex': 'items.rank'
-        }
-    }, {
         '$match': {
-            'items.userId': {
+            'userId': {
                 '$regex': `^${userId}$`,
                 '$options': 'i'
             }
         }
     }, {
         '$project': {
-            'userId': '$items.userId',
-            'category': '$items.category',
-            'score': '$items.score',
-            'level': '$items.level',
-            'rank': {
-                '$add': [
-                    '$items.rank', 1
-                ]
-            }
-        }
-    },{
-        '$sort': {
-            'category': 1
+            'userId': '$userId',
+            'category': '$skills.category',
+            'score': '$skills.score',
+            'level': '$skills.level',
+            'rank': '$rank'
         }
     }, {
         '$unset': '_id'
     }
 ];
 
+
 export const FETCH_OVERALL_RANK_OF_USER_QUERY = (userId) => [
     {
-        '$group': {
-            '_id': '$userId',
-            'userId': {
-                '$first': '$userId'
+        '$addFields': {
+            'level': {
+                '$reduce': {
+                    'input': '$skills',
+                    'initialValue': 0,
+                    'in': {
+                        '$add': [
+                            '$$value', '$$this.level'
+                        ]
+                    }
+                }
             },
             'score': {
-                '$sum': '$score'
-            },
-            'level': {
-                '$sum': '$level'
+                '$reduce': {
+                    'input': '$skills',
+                    'initialValue': 0,
+                    'in': {
+                        '$add': [
+                            '$$value', '$$this.score'
+                        ]
+                    }
+                }
             }
         }
-    }, {
-        '$unset': '_id'
     }, {
         '$setWindowFields': {
             'sortBy': {
@@ -140,8 +168,14 @@ export const FETCH_OVERALL_RANK_OF_USER_QUERY = (userId) => [
             }
         }
     }, {
-        '$addFields': {
-            'category': 'OVERALL'
+        '$project': {
+            'userId': '$userId',
+            'category': 'OVERALL',
+            'level': '$level',
+            'score': '$score',
+            'rank': '$rank'
         }
+    }, {
+        '$unset': '_id'
     }
 ];

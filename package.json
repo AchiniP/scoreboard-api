@@ -50,6 +50,7 @@
     "joi": "^17.4.2",
     "mongoose": "^6.0.10",
     "nodemon": "^2.0.13",
+    "random-username-generator": "^1.0.4",
     "winston": "^3.3.3"
   }
 }
