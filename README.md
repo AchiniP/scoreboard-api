@@ -6,6 +6,10 @@ An Node JS based Rest API which will provide high score board for a game
 - NodeJS (V16)
 - mongoDB
 
+or else
+
+- docker (If you are going to up the project in docker)
+
 ### Exposed Ports
 
 | S/N | Application | Exposed Port |
@@ -17,11 +21,15 @@ An Node JS based Rest API which will provide high score board for a game
 
 #### start the backend
 
-- npm install
-- npm start
+- `npm install`
+- `npm run start:local`
 
 All the commands should be ran in root directory
 <br/>
+
+### To Start the app In Docker
+
+`docker-compose up --build`
 
 #### To set up data in mongo DB collection
 

@@ -15,7 +15,7 @@ const globalErrorHandler = (err, req, res, next) => {
     });
   }
 
-  if (err instanceof ErrorBase) {
+  if (err.getErrorCode() && err.getMessage()) {
     const error = err;
 
     return res.status(error.getHttpStatusCode()).send({

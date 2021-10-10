@@ -4,7 +4,7 @@
   "description": "high score board - API written in express, node js and mongo db",
   "scripts": {
     "test": "jest",
-    "start:dev": "nodemon --exec babel-node src/Server.js",
+    "start:local": "nodemon --exec babel-node src/Server.js",
     "build": "babel src --out-dir build",
     "start": "nodemon --exec babel-node ./build/Server.js",
     "execute": "npm run build && npm start",
