@@ -1,0 +1,1176 @@
+[{
+  "_id": {
+    "$oid": "6162da2e9aae6cf4f6264333"
+  },
+  "userId": "gentle-harry-61",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 199,
+      "level": 50,
+      "_id": {
+        "$oid": "6162da2e9aae6cf4f6264334"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 276,
+      "level": 14,
+      "_id": {
+        "$oid": "6162da2e9aae6cf4f6264335"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 201,
+      "level": 60,
+      "_id": {
+        "$oid": "6162da2e9aae6cf4f6264336"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 282,
+      "level": 99,
+      "_id": {
+        "$oid": "6162da2e9aae6cf4f6264337"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 864,
+      "level": 98,
+      "_id": {
+        "$oid": "6162da2e9aae6cf4f6264338"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6162da2f9aae6cf4f626433a"
+  },
+  "userId": "charming-critic-90",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 102,
+      "level": 39,
+      "_id": {
+        "$oid": "6162da2f9aae6cf4f626433b"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 901,
+      "level": 12,
+      "_id": {
+        "$oid": "6162da2f9aae6cf4f626433c"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 785,
+      "level": 96,
+      "_id": {
+        "$oid": "6162da2f9aae6cf4f626433d"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 660,
+      "level": 21,
+      "_id": {
+        "$oid": "6162da2f9aae6cf4f626433e"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 108,
+      "level": 31,
+      "_id": {
+        "$oid": "6162da2f9aae6cf4f626433f"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6162da319aae6cf4f6264341"
+  },
+  "userId": "Ultimate-donny-25",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 732,
+      "level": 24,
+      "_id": {
+        "$oid": "6162da319aae6cf4f6264342"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 530,
+      "level": 4,
+      "_id": {
+        "$oid": "6162da319aae6cf4f6264343"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 787,
+      "level": 72,
+      "_id": {
+        "$oid": "6162da319aae6cf4f6264344"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 416,
+      "level": 88,
+      "_id": {
+        "$oid": "6162da319aae6cf4f6264345"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 273,
+      "level": 49,
+      "_id": {
+        "$oid": "6162da319aae6cf4f6264346"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6162da329aae6cf4f6264348"
+  },
+  "userId": "Favorable-trustee-54",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 647,
+      "level": 2,
+      "_id": {
+        "$oid": "6162da329aae6cf4f6264349"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 1048,
+      "level": 12,
+      "_id": {
+        "$oid": "6162da329aae6cf4f626434a"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 801,
+      "level": 83,
+      "_id": {
+        "$oid": "6162da329aae6cf4f626434b"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 254,
+      "level": 69,
+      "_id": {
+        "$oid": "6162da329aae6cf4f626434c"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 148,
+      "level": 50,
+      "_id": {
+        "$oid": "6162da329aae6cf4f626434d"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6162da349aae6cf4f626434f"
+  },
+  "userId": "romantic-teacher-73",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 739,
+      "level": 86,
+      "_id": {
+        "$oid": "6162da349aae6cf4f6264350"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 901,
+      "level": 5,
+      "_id": {
+        "$oid": "6162da349aae6cf4f6264351"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 395,
+      "level": 7,
+      "_id": {
+        "$oid": "6162da349aae6cf4f6264352"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 174,
+      "level": 41,
+      "_id": {
+        "$oid": "6162da349aae6cf4f6264353"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 246,
+      "level": 28,
+      "_id": {
+        "$oid": "6162da349aae6cf4f6264354"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630d3d1c367d1c06c4b9a0"
+  },
+  "userId": "broad-minded-barley-31",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 965,
+      "level": 18,
+      "_id": {
+        "$oid": "61630d3d1c367d1c06c4b9a1"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 1049,
+      "level": 82,
+      "_id": {
+        "$oid": "61630d3d1c367d1c06c4b9a2"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 870,
+      "level": 77,
+      "_id": {
+        "$oid": "61630d3d1c367d1c06c4b9a3"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 260,
+      "level": 86,
+      "_id": {
+        "$oid": "61630d3d1c367d1c06c4b9a4"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 1091,
+      "level": 94,
+      "_id": {
+        "$oid": "61630d3d1c367d1c06c4b9a5"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630d8a69cb97d506b35e89"
+  },
+  "userId": "compassionate-edmund-31",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 704,
+      "level": 84,
+      "_id": {
+        "$oid": "61630d8b69cb97d506b35e8a"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 329,
+      "level": 22,
+      "_id": {
+        "$oid": "61630d8b69cb97d506b35e8b"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 407,
+      "level": 93,
+      "_id": {
+        "$oid": "61630d8b69cb97d506b35e8c"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 229,
+      "level": 47,
+      "_id": {
+        "$oid": "61630d8b69cb97d506b35e8d"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 844,
+      "level": 92,
+      "_id": {
+        "$oid": "61630d8b69cb97d506b35e8e"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630d9c0ef8381e2c90259f"
+  },
+  "userId": "nice-cleaver-81",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 745,
+      "level": 84,
+      "_id": {
+        "$oid": "61630d9c0ef8381e2c9025a0"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 335,
+      "level": 6,
+      "_id": {
+        "$oid": "61630d9c0ef8381e2c9025a1"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 919,
+      "level": 2,
+      "_id": {
+        "$oid": "61630d9c0ef8381e2c9025a2"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 1059,
+      "level": 1,
+      "_id": {
+        "$oid": "61630d9c0ef8381e2c9025a3"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 899,
+      "level": 95,
+      "_id": {
+        "$oid": "61630d9c0ef8381e2c9025a4"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630db26ce2c8156c2bf776"
+  },
+  "userId": "Fortuitous-present-99",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 280,
+      "level": 99,
+      "_id": {
+        "$oid": "61630db26ce2c8156c2bf777"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 170,
+      "level": 72,
+      "_id": {
+        "$oid": "61630db26ce2c8156c2bf778"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 925,
+      "level": 48,
+      "_id": {
+        "$oid": "61630db26ce2c8156c2bf779"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 1054,
+      "level": 50,
+      "_id": {
+        "$oid": "61630db26ce2c8156c2bf77a"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 501,
+      "level": 6,
+      "_id": {
+        "$oid": "61630db26ce2c8156c2bf77b"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630ea69cab0003acd41c7a"
+  },
+  "userId": "impartial-author-57",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 1047,
+      "level": 29,
+      "_id": {
+        "$oid": "61630ea69cab0003acd41c7b"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 988,
+      "level": 22,
+      "_id": {
+        "$oid": "61630ea69cab0003acd41c7c"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 1018,
+      "level": 84,
+      "_id": {
+        "$oid": "61630ea69cab0003acd41c7d"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 822,
+      "level": 92,
+      "_id": {
+        "$oid": "61630ea69cab0003acd41c7e"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 989,
+      "level": 87,
+      "_id": {
+        "$oid": "61630ea69cab0003acd41c7f"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630ed9366e5c443226f7e8"
+  },
+  "userId": "discreet-undertaker-81",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 530,
+      "level": 3,
+      "_id": {
+        "$oid": "61630ed9366e5c443226f7e9"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 1012,
+      "level": 96,
+      "_id": {
+        "$oid": "61630ed9366e5c443226f7ea"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 359,
+      "level": 28,
+      "_id": {
+        "$oid": "61630ed9366e5c443226f7eb"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 834,
+      "level": 64,
+      "_id": {
+        "$oid": "61630ed9366e5c443226f7ec"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 1017,
+      "level": 65,
+      "_id": {
+        "$oid": "61630ed9366e5c443226f7ed"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630f65f9857711be8e63d4"
+  },
+  "userId": "willing-ann-95",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 479,
+      "level": 82,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63d5"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 627,
+      "level": 56,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63d6"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 747,
+      "level": 19,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63d7"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 981,
+      "level": 14,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63d8"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 125,
+      "level": 40,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63d9"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630f65f9857711be8e63da"
+  },
+  "userId": "neat-norris-49",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 583,
+      "level": 4,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63db"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 835,
+      "level": 13,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63dc"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 264,
+      "level": 74,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63dd"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 1084,
+      "level": 42,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63de"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 957,
+      "level": 78,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63df"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630f65f9857711be8e63e0"
+  },
+  "userId": "discreet-critic-83",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 506,
+      "level": 21,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63e1"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 558,
+      "level": 71,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63e2"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 349,
+      "level": 76,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63e3"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 700,
+      "level": 60,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63e4"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 721,
+      "level": 83,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63e5"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630f65f9857711be8e63e6"
+  },
+  "userId": "Amazing-simon-16",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 881,
+      "level": 87,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63e7"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 323,
+      "level": 79,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63e8"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 865,
+      "level": 94,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63e9"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 832,
+      "level": 75,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63ea"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 411,
+      "level": 53,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63eb"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630f65f9857711be8e63ec"
+  },
+  "userId": "hard-working-traveler-32",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 804,
+      "level": 81,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63ed"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 297,
+      "level": 49,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63ee"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 354,
+      "level": 79,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63ef"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 193,
+      "level": 14,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63f0"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 1093,
+      "level": 72,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63f1"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630f65f9857711be8e63f2"
+  },
+  "userId": "Blithesome-engineer-5",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 134,
+      "level": 100,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63f3"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 308,
+      "level": 48,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63f4"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 275,
+      "level": 43,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63f5"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 407,
+      "level": 72,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63f6"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 194,
+      "level": 8,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63f7"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630f65f9857711be8e63f8"
+  },
+  "userId": "Great-berry-81",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 802,
+      "level": 86,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63f9"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 834,
+      "level": 69,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63fa"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 140,
+      "level": 12,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63fb"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 459,
+      "level": 40,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63fc"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 370,
+      "level": 25,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63fd"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630f65f9857711be8e63fe"
+  },
+  "userId": "Stupendous-marion-57",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 423,
+      "level": 19,
+      "_id": {
+        "$oid": "61630f65f9857711be8e63ff"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 329,
+      "level": 21,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6400"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 509,
+      "level": 6,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6401"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 722,
+      "level": 2,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6402"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 512,
+      "level": 55,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6403"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630f65f9857711be8e6404"
+  },
+  "userId": "affectionate-pott-39",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 1083,
+      "level": 61,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6405"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 595,
+      "level": 15,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6406"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 1061,
+      "level": 81,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6407"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 841,
+      "level": 26,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6408"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 765,
+      "level": 19,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6409"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630f65f9857711be8e640a"
+  },
+  "userId": "quiet-girlguide-94",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 640,
+      "level": 9,
+      "_id": {
+        "$oid": "61630f65f9857711be8e640b"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 868,
+      "level": 43,
+      "_id": {
+        "$oid": "61630f65f9857711be8e640c"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 114,
+      "level": 35,
+      "_id": {
+        "$oid": "61630f65f9857711be8e640d"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 672,
+      "level": 22,
+      "_id": {
+        "$oid": "61630f65f9857711be8e640e"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 875,
+      "level": 40,
+      "_id": {
+        "$oid": "61630f65f9857711be8e640f"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630f65f9857711be8e6410"
+  },
+  "userId": "Amazing-senator-85",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 750,
+      "level": 17,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6411"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 179,
+      "level": 45,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6412"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 646,
+      "level": 82,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6413"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 824,
+      "level": 97,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6414"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 677,
+      "level": 20,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6415"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630f65f9857711be8e6416"
+  },
+  "userId": "reliable-filer-43",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 708,
+      "level": 53,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6417"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 208,
+      "level": 13,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6418"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 784,
+      "level": 10,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6419"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 582,
+      "level": 35,
+      "_id": {
+        "$oid": "61630f65f9857711be8e641a"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 463,
+      "level": 84,
+      "_id": {
+        "$oid": "61630f65f9857711be8e641b"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630f65f9857711be8e641c"
+  },
+  "userId": "Outstanding-chestle-80",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 971,
+      "level": 39,
+      "_id": {
+        "$oid": "61630f65f9857711be8e641d"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 445,
+      "level": 49,
+      "_id": {
+        "$oid": "61630f65f9857711be8e641e"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 804,
+      "level": 11,
+      "_id": {
+        "$oid": "61630f65f9857711be8e641f"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 669,
+      "level": 64,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6420"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 348,
+      "level": 96,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6421"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61630f65f9857711be8e6422"
+  },
+  "userId": "loving-charley-94",
+  "skills": [
+    {
+      "category": "ATTACK",
+      "score": 911,
+      "level": 24,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6423"
+      }
+    },
+    {
+      "category": "DEFENSE",
+      "score": 956,
+      "level": 93,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6424"
+      }
+    },
+    {
+      "category": "MAGIC",
+      "score": 631,
+      "level": 90,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6425"
+      }
+    },
+    {
+      "category": "COOKING",
+      "score": 1086,
+      "level": 63,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6426"
+      }
+    },
+    {
+      "category": "CRAFTING",
+      "score": 196,
+      "level": 80,
+      "_id": {
+        "$oid": "61630f65f9857711be8e6427"
+      }
+    }
+  ]
+}]
